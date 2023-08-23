@@ -1,8 +1,8 @@
 
-package testpackage;
-public class TestClass{
-    public static void main(String[] args)
-    {
-        System.out.println("HELlO WORLD");
+public class TestClass {
+    public static void main(String[] args) {
+        double rate;
+        rate = 8;
+        System.out.println(rate);
     }
 }
