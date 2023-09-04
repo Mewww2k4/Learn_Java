@@ -7,6 +7,6 @@ public class DateTime {
         Date date = new Date();
         String strDateFormat = "HH:mm:ss a";
         SimpleDateFormat sdf = new SimpleDateFormat(strDateFormat);
-        System.out.println(sdf.format(date));
+        System.out.println("Bay gio la : " + sdf.format(date));
     }
 }
