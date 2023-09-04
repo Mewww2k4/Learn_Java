@@ -44,7 +44,38 @@ public class stringjava {
                 System.out.println(i);
             }
         }
+        // tra ve vi tri cuoi cung
+        int kq = str2.lastIndexOf(str1);
+        System.out.println("Vi tri cuoi cung :"+kq);
+        //Thay the chuoi ki tu thanh = chhuoi khac
+        sc.nextLine();
+        System.out.print("Nhap chuoi ky tu: ");
+        String kytu = sc.nextLine();
+
+        System.out.print("Nhap ki tu dau: ");
+        char c = sc.next().charAt(0);
+
+        System.out.print("Nhap ki tu cuoi: ");
+        char e = sc.next().charAt(0);
+
+        String kytu1 = kytu.replace(c, e);
+        System.out.println("Chuoi sau khi thay the: " + kytu1);
+        // Loai bo khoang trang thua
+        sc.nextLine();
+        System.out.print("Nhap :");
+        String hihi =   sc.nextLine();
+        String hihi1 = hihi.trim();
+        System.out.println("Chuoi sau khi xoa khoang trang" +  hihi1);
+
+        //tao chuoi con tu vi tri trong chuoi
+        sc.nextLine();
+        System.out.print("Nhap chuoi ky tu: ");
+        String abc = sc.nextLine();
+
+        String kytu2 = abc.substring(6);
+        System.out.println("Chuoi sau khi thay the: " + kytu2);
     }
 }
+
 
 
